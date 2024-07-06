@@ -5,6 +5,7 @@ This project implements sentiment analysis using LSTM (Long Short-Term Memory) n
 Dataset
 The sentiment analysis model is trained on the [Name of Dataset] dataset, which consists of [brief description of dataset].
 Dataset Source: [https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment]
+
 LONGSHORT-TERMMEMORYNETWORKS: LSTM stands for Long Short Term 
 Memory Networks. It is a variant of Recurrent Neural Networks. RNN's are usually used with 
 sequential data such as text and audio. Usually, while computing an embedding matrix, the 
