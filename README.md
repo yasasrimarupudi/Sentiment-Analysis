@@ -3,17 +3,18 @@ Overview
 This project implements sentiment analysis using LSTM (Long Short-Term Memory) networks to classify the sentiment (positive, negative, neutral) of text data.
 
 Dataset
-The sentiment analysis model is trained on the [Name of Dataset] dataset, which consists of [brief description of dataset].
+The sentiment analysis model is trained on the dataset, which consists of a brief description of the dataset.
+
 Dataset Source: [https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment]
 
-LONGSHORT-TERMMEMORYNETWORKS: LSTM stands for Long Short Term 
-Memory Networks. It is a variant of Recurrent Neural Networks. RNN's are usually used with 
+LONGSHOT-TERMMEMORYNETWORKS: LSTM stands for Long Short-Term
+Memory Networks. It is a variant of Recurrent Neural Networks. RNNs are usually used with 
 sequential data such as text and audio. Usually, while computing an embedding matrix, the 
 meaning of every word and its calculations (which are called hidden states) are stored. If the 
 reference of a word, let’s say a word is used after 100 words in a text, then all these calculations 
-RNNs cannot store in its memory. That’s why RNNs are not capable of learning these longterm dependencies
+RNNs cannot be stored in its memory. That’s why RNNs are not capable of learning these long-term dependencies
 Preprocessing
-Data cleaning: Removing noise, handling missing values.
+Data cleaning: Removing noise, and handling missing values.
 Tokenization: Breaking text into tokens.
 Lemmatization/Stemming: Normalizing tokens.
 Vectorization: Converting text data into numerical vectors.
