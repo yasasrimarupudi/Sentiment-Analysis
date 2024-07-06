@@ -14,11 +14,14 @@ sequential data such as text and audio. Usually, while computing an embedding ma
 meaning of every word and its calculations (which are called hidden states) are stored. If the 
 reference of a word, let’s say a word is used after 100 words in a text, then all these calculations 
 RNNs cannot be stored in its memory. That’s why RNNs are not capable of learning these long-term dependencies
+
 Preprocessing
+
 Data cleaning: Removing noise, and handling missing values.
 Tokenization: Breaking text into tokens.
 Lemmatization/Stemming: Normalizing tokens.
 Vectorization: Converting text data into numerical vectors.
+
 1) Supervised Learning:
 In supervised learning, you train a model on a labeled dataset where each text sample is 
 associated with its corresponding sentiment label (e.g., positive, negative, neutral). The 
@@ -28,11 +31,13 @@ Support Vector Machines (SVM)
 Naive Bayes Classifier
 Logistic Regression
 Neural Networks (e.g., LSTM, GRU)
-2) Unsupervised Learning:
+
+3) Unsupervised Learning:
 Unsupervised learning doesn't require labeled data for training. Instead, it aims to discover 
 patterns and structures in the data without explicit guidance. In sentiment analysis, 
 unsupervised techniques might involve clustering similar sentiment expressions or using 
 lexicons to score sentiment words and aggregating them to determine the overall sentiment.
+
 Summary:
 In this machine learning project, we will build a binary text classifier that 
 classifies the sentiment of the tweets into positive and negative. We will 
